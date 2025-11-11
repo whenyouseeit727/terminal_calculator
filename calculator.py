@@ -21,3 +21,12 @@ def subtraction(a,b):
 if operation == "1":
     result = addition(a,b)
     print(result)
+elif operation == "2":
+    result=subtraction(a,b)
+    print(result)
+elif operation == "3":
+    result=multiplication(a,b)
+    print(result)
+elif operation == "4":
+    result=division(a,b)
+    print(result)
